@@ -62,7 +62,13 @@ input[type=text]{
 	margin-bottom: 10px;
 
 }
+input[type=submit]{
+	border: none;
+	height: 40px;
+	width: 200px;
+	margin: 4px;
 
+}
 
 .btn{
 	background-color: #f8f9fa;
