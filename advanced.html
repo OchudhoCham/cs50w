@@ -20,15 +20,21 @@
 			h4{
 				color: red;
 			}
+			.form-box{
+				width: 100vh;
+				float: left;
+				padding-left: 80px;
+			}
 		</style>
 		<ul>
 			<li><a href="index.html">Google Search</a></li>
 			<li><a href="image.html">Image Search</a></li>
 		</ul>
-		<div class="container">
+		<div class="form-box">
 			<img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" style="height: 24px; width: 74px;">
 			<form action="https://www.google.com/search">
 				<h4>Advanced Search</h4>
+			<hr>
 				<label>all these words:</label><input class="form-control" type="text" name="as_q">
 				<label>this exact word or phrase:</label><input class="form-control" type="text" name="as_epq" >
 				<label>any of these words:</label><input class="form-control" type="text" name="as_oq">
