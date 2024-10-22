@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Google Advanced Search</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<style>
+			body{
+				margin: 0;
+				padding: 0;
+			}
+
+			.container{
+				display: block;
+				float: left;
+			}
+		</style>
+		<ul>
+			<li><a href="index.html">Google Search</a></li>
+			<li><a href="image.html">Image Search</a></li>
+		</ul>
+		
+		<div class="container">
+			<img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" style="height: 24px; width: 74px;">
+			<form action="https://www.google.com/search">
+				<label>all these words:</label><input class="form-control" type="text" name="as_q">
+				<label>this exact word or phrase:</label><input class="form-control" type="text" name="as_epq" >
+				<label>any of these words:</label><input class="form-control" type="text" name="as_oq">
+				<label>none of these words:</label><input class="form-control" type="text" name="as_eq">
+				<input type="submit" value="Advanced Search">
+			</form>
+		</div>
+	</body>
+</html>
+
