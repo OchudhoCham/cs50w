@@ -3,14 +3,28 @@
 	<head>
 		<title>Google Advanced Search</title>
 		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<link rel="stylesheet" href="styles.css">
 	</head>
 	<body>
 		<style>
-			body{
-				margin: 0;
-				padding: 0;
-			}
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	font-family: Arial, sans-serif;
+}
+
+ul{
+	list-style-type: none;
+
+}
+ul li{
+	display: inline;
+	float: right;
+	margin: 16px 8px 16px 8px;
+}
+li a{
+	text-decoration: none;
+}
 
 			.container{
 				display: block;
@@ -25,21 +39,22 @@
 				float: left;
 				padding-left: 80px;
 			}
+
 		</style>
 		<ul>
 			<li><a href="index.html">Google Search</a></li>
 			<li><a href="image.html">Image Search</a></li>
 		</ul>
+		<h4>Advanced Search</h4>
+		<hr>
 		<div class="form-box">
 			<img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" style="height: 24px; width: 74px;">
 			<form action="https://www.google.com/search">
-				<h4>Advanced Search</h4>
-			<hr>
 				<label>all these words:</label><input class="form-control" type="text" name="as_q">
 				<label>this exact word or phrase:</label><input class="form-control" type="text" name="as_epq" >
 				<label>any of these words:</label><input class="form-control" type="text" name="as_oq">
 				<label>none of these words:</label><input class="form-control" type="text" name="as_eq">
-				<input class="btn btn-primary" type="submit" value="Advanced Search">
+				<input class="btn btn-primary" style="margin-top: 8px;" type="submit" value="Advanced Search">
 			</form>
 		</div>
 	</body>
